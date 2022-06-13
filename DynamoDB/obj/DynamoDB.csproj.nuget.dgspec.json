@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\yemp\\play\\DynamoDB\\DynamoDB\\DynamoDB.csproj": {}
+  },
+  "projects": {
+    "c:\\yemp\\play\\DynamoDB\\DynamoDB\\DynamoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\yemp\\play\\DynamoDB\\DynamoDB\\DynamoDB.csproj",
+        "projectName": "DynamoDB",
+        "projectPath": "c:\\yemp\\play\\DynamoDB\\DynamoDB\\DynamoDB.csproj",
+        "packagesPath": "C:\\Users\\hoongk\\.nuget\\packages\\",
+        "outputPath": "c:\\yemp\\play\\DynamoDB\\DynamoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hoongk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.blackstone.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.11.15, )"
+            },
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.3.47, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
